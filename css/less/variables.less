@@ -1,0 +1,92 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+
+@black:					 #000;
+@gray-darkest: 			 #1e2124;	
+@gray-darker:            #353a40;
+@gray-dark:              #656d78;
+@gray:                   #aab2bd; // lighten(#000, 33.5%); 
+@gray-light:             #ccd1d9;
+@gray-lighter:           #e6e9eb;
+@gray-lightest:			 #f5f6f8;
+@white:					 #fff;
+
+// Primary Colours
+// -------------------------
+
+@blue: 					 rgba(32,74,128,1);
+@blue-light:			 lighten(@blue, 10%);
+@green:					 #8cc152;
+@green-light:			 #a0d468;
+@yellow:				 #f6c542;
+@yellow-light:			 #ffd554;
+@red: 					 #d95442;
+@red-light:    			 #fc6151;
+
+
+// Brand colors
+// -------------------------
+
+@brand-primary:         rgba(255, 135, 0, 1);
+
+// Scaffolding
+// -------------------------
+
+@body-bg:               #fff;
+@text-color:            @black;
+
+// Links
+// -------------------------
+
+@link-color:            @blue;
+@link-hover-color:      darken(@link-color, 15%);
+
+// Typography
+// -------------------------
+
+@font-family-sans-serif:  "Open Sans", sans-serif;
+@font-family-heading:	  @font-family-sans-serif;
+@font-family-base:        @font-family-sans-serif;
+@font-family-copy: 		  @font-family-sans-serif;
+
+@font-size-base:          15px;
+@font-size-large:         ceil(@font-size-base * 1.25);
+@font-size-small:         ceil(@font-size-base * 0.85);
+
+@font-size-h1:            floor((@font-size-base * 2.1));
+@font-size-h2:            floor((@font-size-base * 1.8)); 
+@font-size-h3:            ceil((@font-size-base * 1.4 ));
+@font-size-h4:            ceil((@font-size-base * 1)); 
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85));
+
+@font-weight-base:		  400;
+@font-weight-bold:	      700;
+
+@line-height-base:        1.6; // 20/13
+@line-height-computed:    floor(@font-size-base * @line-height-base);
+
+@headings-font-family:    @font-family-heading;
+@headings-font-weight:    600;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
+@heading-link-hover-color:@blue;
+
+// Type
+// ------------------------
+@text-muted:                  @gray-light;
+@abbr-border-color:           @gray-light;
+@headings-small-color:        @gray;
+@blockquote-small-color:      @gray-light;
+@blockquote-border-color:     @gray-lighter;
+@page-header-border-color:    @gray-lighter;
+
+@border-radius: 3px;

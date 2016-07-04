@@ -1,0 +1,567 @@
+<!DOCTYPE HTML>
+<html>
+	
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content=" Founders exposes students to the growing entrepreneurship community at the University of Illinois.">
+		<title>Founders - Illinois Entrepeneurs</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+      input,
+      textarea,
+      select {
+          border: 1px solid #111;
+          padding: 0.5em;
+          font-size: 15px;
+          line-height: 1.2em;
+          width: 80%;
+          background: #444;
+          color: #fff;
+          font-family: helvetica, sans-serif;
+          background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
+          -webkit-appearance: none;
+          /*box-shadow*/
+          -webkit-box-shadow: 1px 1px 1px #333;
+          -moz-box-shadow: 1px 1px 1px #333;
+          box-shadow: 1px 1px 1px #333;
+        }
+
+      input:focus,
+      textarea:focus,
+      select:focus { outline-color: #c00 }
+      textarea {
+          height: 55px;
+          background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+        background: -moz-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+        background: -o-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+        background: -ms-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+        background: gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+      } 
+    </style>
+	</head>
+	
+	<body>
+		
+		<section class="splash">
+			<div class="container">
+				<div class="content">
+					<img class="logo" src="logo.png">
+				</div>
+			</div>
+		</section>
+
+			
+		<section class="portfolio">
+			
+			<div class="container">
+			
+				<div class="row middle-xs">
+			
+					<div id="portfolio-meta">
+						
+						<h1>About Founders</h1>
+            <p>Founders is the new student entrepreneurship organization at the <a href="http://illinois.edu">University of Illinois</a>. In past years, entrepreneurial efforts on campus have been disconnected and scattered. Founders unifies the lost organizations across campus. We have strong ties with the <a href="http://tec.illinois.edu/">Technology Entrepreneur Center</a> to ensure a cohesive entrepreneurial experience.</p>
+            <p>We want our members to succeed. In order for that to happen, we must have a strong culture and environment that educates, inspires, and motivates the right people forward. We are interdisciplinary, open minded, and innovative.</p>
+            <p>Everything we do is for a purpose and everything we do affects our lives and the lives of others. We will build recognition for the Illinois entrepreneurship community. We will build the foundation for innovation.</p>
+										
+					</div>
+		
+					<div class="col-md-7 col-md-offset-1 companies">
+						<div class="row" id="companies">
+							<!-- This will be populated by JS -->
+						</div><!-- row -->
+					</div><!-- companies -->
+					
+				</div><!-- row -->
+			
+				
+			</div><!-- container -->
+			
+		</section><!-- section -->
+
+    <section class="resources">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Resources</h1>
+					</div>
+				</div>
+				
+				<!-- Infographics -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Infographics</h3>
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource important" href="https://www.swipe.to/vertical/6798ds" target="_blank">
+							<h3>The First Four Years</h3><i class="icon-chart-bar"></i>
+							<p>Statistics for our portfolio and investments from 2011 to 2015</p>
+							<p class="muted small">Published: May 2015</p>
+						</a>
+					</div>					
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource" href="https://www.swipe.to/vertical/1410" target="_blank">
+							<h3>The First Two Years</h3><i class="icon-chart-bar"></i>
+							<p>Statistics for our portfolio and investments from 2011 to 2012</p>
+							<p class="muted small">Published: July 2013</p>
+						</a>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource" href="https://www.swipe.to/vertical/1982dt" target="_blank">
+							<h3>The First Year</h3><i class="icon-chart-bar"></i>
+							<p>Statistics for our portfolio and investments in our first year (2011)</p>
+							<p class="muted small">Published: May 2012</p>
+						</a>
+					</div>
+				</div>
+				
+				<!-- Legals -->
+				<div class="row">
+					<div class="col-md-12">
+						<h3>Investment Documents</h3>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource important" href="https://www.dropbox.com/s/pc0208kjk3jti7c/20130620%20Passion%20Capital%20Plain%20English%20Term%20Sheet.pdf" target="_blank">
+							<h3>Plain English Term Sheet</h3><i class="icon-doc-text"></i>
+							<p>Our non-binding term sheet outlining the terms on which we will make a new investment</p>
+							<p class="muted small">Updated: January 2016</p>
+						</a>
+					</div>					
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource important" href="https://www.dropbox.com/s/7zdsri803ngepy4/20130619%20Important%20Decisions.pdf" target="_blank">
+							<h3>Term Sheet Appendix</h3><i class="icon-doc-text"></i>
+							<p>Subsidiary matter to the term sheet</p>
+							<p class="muted small">Updated: January 2016</p>
+						</a>
+					</div>					
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource important"  href="https://www.dropbox.com/s/jtpjaottp56ew9e/Investment%20agreement.pdf?dl=0" target="_blank">
+							<h3>Investment Agreement</h3><i class="icon-doc-text"></i>
+							<p>Sets out the terms of new investments</p>
+							<p class="muted small">Updated: January 2016</p>
+						</a>
+					</div>					
+					<div class="col-sm-3 col-xs-6">
+						<a class="resource important"  href="https://www.dropbox.com/s/ccabfzdhnh9xe3j/Articles%20of%20association.pdf?dl=0" target="_blank">
+							<h3>Articles of Association</h3><i class="icon-doc-text"></i>
+							<p>Governs the operation of companies we invest in (e.g. board composition, responsibilities of the directors)</p>
+							<p class="muted small">Updated: January 2016 </p>
+						</a>
+					</div>					
+				</div>
+				
+			</div>
+		</section>
+
+		
+		
+		<section class="team">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Team</h1>
+					</div>
+				</div><!-- row -->
+				
+				<div class="row center-xs between-xs">
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="">
+						<div class="details">
+							<h3>Subarna Bhattacharjee</h3>
+							<h4>President</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/indieboyer" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/india-boyer-668566a6" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="">
+						<div class="details">
+							<h3>Ansh Ratnam</h3>
+							<h4>Operations Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/eileentso" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/eileenburbidge" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="">
+						<div class="details">
+							<h3>Miguel Coronel</h3>
+							<h4>Student Engagement Director</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/robertdighero" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/robertdighero" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="">
+						<div class="details">
+							<h3>Dana Nikolaeva</h3>
+							<h4>54.io Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/StefanGlaenzer" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/stefanglaenzer" target="_blank">
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+					
+				<div class="row center-xs between-xs">
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/sandra.jpg">
+						<div class="details">
+							<h3>Ryan Chen</h3>
+							<h4>54.io Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/swml83" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/sandra-lee-57327222" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/lyndsey.jpg">
+						<div class="details">
+							<h3>Tanmay Shah</h3>
+							<h4>Startup Bootcamp Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/lyn__sea" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/lyndseyseaborn" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/nicolassharp.jpg">
+						<div class="details">
+							<h3>Shivam Bhakura</h3>
+							<h4>Startup Bootcamp/Outreach Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/nicolasosharp" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/nicolas-sharp-a92726b1" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/jamie.jpg">
+						<div class="details">
+							<h3>Ryan Chen</h3>
+							<h4>Startup Career Fair Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/JamieWhitcroft" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/jamie-whitcroft-66313933" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div><!-- row -->
+				
+				<div class="row center-xs between-xs">
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/sandra.jpg">
+						<div class="details">
+							<h3>Simran Patil</h3>
+							<h4>Startup Career Fair Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/swml83" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/sandra-lee-57327222" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/lyndsey.jpg">
+						<div class="details">
+							<h3>Niraj Pant</h3>
+							<h4>Microgrants/Tech Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/niraj" target="_blank">
+                    <!--<img src="images/social/twitter.png" />-->
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/lyndseyseaborn" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/nicolassharp.jpg">
+						<div class="details">
+							<h3>Eric Onsager</h3>
+							<h4>Student Holdings Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/nicolasosharp" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/nicolas-sharp-a92726b1" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/jamie.jpg">
+						<div class="details">
+							<h3>Dan Legut</h3>
+							<h4>Tech Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/JamieWhitcroft" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/jamie-whitcroft-66313933" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div><!-- row -->
+
+				<div class="row center-xs between-xs">
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/sandra.jpg">
+						<div class="details">
+							<h3>Elizabeth Lee</h3>
+							<h4>Media Lead</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/swml83" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/sandra-lee-57327222" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/lyndsey.jpg">
+						<div class="details">
+							<h3>TBA</h3>
+							<h4>Advisor</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/lyn__sea" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/lyndseyseaborn" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/nicolassharp.jpg">
+						<div class="details">
+							<h3>TBA</h3>
+							<h4>Advisor</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/nicolasosharp" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/nicolas-sharp-a92726b1" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+						<img src="images/jamie.jpg">
+						<div class="details">
+							<h3>TBA</h3>
+							<h4>Advisor</h4>
+							<ul class="social">
+								<li>
+									<a href="https://twitter.com/JamieWhitcroft" target="_blank">
+										<img src="images/social/twitter.png" />
+									</a>
+								</li>
+								<li>
+									<a href="https://www.linkedin.com/in/jamie-whitcroft-66313933" target="_blank">
+										<img src="images/social/linkedin.png" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					
+				</div><!-- row -->
+				
+				
+				
+			</div>
+		</section>
+		
+				
+		
+		<section class="contact-us">
+			<div id="map"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Connect with us!</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+						<p>Want to get updates from us? Sign up for the mailing list!</p>
+  <input type="text" placeholder="Text input">
+
+					</div>
+					<div class="col-md-5 col-md-offset-2">
+						<h4>Office</h4>
+            <p><a href="https://www.google.com/maps/place/Engineering+Hall,+1308+W+Green+St,+Urbana,+IL+61801/@40.1108895,-88.2291568,17z/data=!3m1!4b1!4m5!3m4!1s0x880cd73ffb8e733b:0x550a408e89cd806!8m2!3d40.1108408!4d-88.226973" target="_blank">Engineering Hall<br>
+              1308 W Green Street
+              <br>
+							Urbana, IL 61801<br></a>
+						</p>
+						<h4>Email</h4>
+				    <p><a href="mailto:team@founders.illinois.edu">team@founders.illinois.edu</a></p>
+	          <a href="#" class="btn-two green block">Button</a>	
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.js'></script>
+	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css' rel='stylesheet' />
+		
+		<script>
+		mapboxgl.accessToken = 'pk.eyJ1IjoibmlyYWpwYW50NyIsImEiOiJxYUp4Vk1zIn0.rBZKb-rUZE8id4Cx8jakcg';
+		var map = new mapboxgl.Map({
+		    container: 'map', // container id
+        center: [-88.226802, 40.110811],
+		    style: 'mapbox://styles/mapbox/light-v9', //hosted style id
+        //center: [40.110595, -88.221692], // starting position
+		    zoom: 16 // starting zoom
+		});
+		</script>
+			
+	</body>
+	
+</html>

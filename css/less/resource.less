@@ -1,0 +1,43 @@
+a.resource{
+	background: lighten(@gray-lightest, 1%);
+	border-radius: 4px;
+	padding: 12px;
+	//border-top: 4px solid @gray-light;
+	border-top: 1px solid @gray-light;
+	display: block;
+	text-decoration: none;
+	color: @black;
+	position: relative;
+	height: 100%;
+	margin-bottom: 15px;
+	i{
+		position: absolute;
+		width: 16px;
+		right: 14px;
+		top: 11px;
+	}
+	&:hover{
+		background: darken(@gray-lightest, 2%);
+	}
+	&.important{
+		border-top: 1px solid @brand-primary;
+		i{
+			color: @brand-primary;
+		}
+		border-color: @brand-primary;
+	}
+	h3{
+		font-size: 15px;
+		font-weight: 600;
+		margin-top: 0;
+		color: @black;
+		margin-right: 18px;
+	}
+	p:last-child{
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	*{
+		text-decoration: none;	
+	}
+}
