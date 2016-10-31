@@ -1239,6 +1239,8 @@ a:focus {
 /* '' */
 .splash {
   background: #f5f6f8;
+  /*background:url(./../img/school_alt.jpg) no-repeat center center fixed;*/
+  /*background-size: cover;*/
   min-height: 400px;
   height: 100%;
   text-align: center;
@@ -1254,6 +1256,11 @@ a:focus {
   padding: 20px;
   margin: 0 auto;
   box-sizing: border-box;
+}
+.splash h1 {
+  color: #fff;
+  size: 31px;
+  font-family: "Open Sans", sans-serif;
 }
 .portfolio h1 {
   margin-top: 0;
@@ -1366,11 +1373,11 @@ a.resource:hover {
   background: #eff1f4;
 }
 a.resource.important {
-  border-top: 1px solid #ff8700;
-  border-color: #ff8700;
+  border-top: 1px solid #ff8000;
+  border-color: #ff8000;
 }
 a.resource.important i {
-  color: #ff8700;
+  color: #ff8000;
 }
 a.resource h3 {
   font-size: 15px;

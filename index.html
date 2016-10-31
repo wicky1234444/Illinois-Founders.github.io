@@ -1,85 +1,92 @@
 <!DOCTYPE HTML>
 <html>
-	
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <meta name="description" content=" Founders exposes students to the growing entrepreneurship community at the University of Illinois.">
-		<title>Founders - Illinois Entrepeneurs</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <link rel="shortcut icon" href="favicon.ico">
-    <style>
-      input,
-      textarea,
-      select {
-          border: 1px solid #111;
-          padding: 0.5em;
-          font-size: 15px;
-          line-height: 1.2em;
-          width: 80%;
-          background: #444;
-          color: #fff;
-          font-family: helvetica, sans-serif;
-          background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
-          -webkit-appearance: none;
-          /*box-shadow*/
-          -webkit-box-shadow: 1px 1px 1px #333;
-          -moz-box-shadow: 1px 1px 1px #333;
-          box-shadow: 1px 1px 1px #333;
-        }
 
-      input:focus,
-      textarea:focus,
-      select:focus { outline-color: #c00 }
-      textarea {
-          height: 55px;
-          background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
-        background: -moz-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
-        background: -o-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
-        background: -ms-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
-        background: gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
-      } 
-    </style>
-	</head>
-	
-	<body>
-		
-		<section class="splash">
-			<div class="container">
-				<div class="content">
-					<img class="logo" src="logo.png">
-				</div>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content=" Founders exposes students to the growing entrepreneurship community at the University of Illinois.">
+	<title>Founders - Illinois Entrepeneurs</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+	<link rel="shortcut icon" href="favicon.ico">
+	<style>
+		input,
+		textarea,
+		select {
+			border: 1px solid #111;
+			padding: 0.5em;
+			font-size: 15px;
+			line-height: 1.2em;
+			width: 80%;
+			background: #444;
+			color: #fff;
+			font-family: helvetica, sans-serif;
+			background: -webkit-gradient(linear, left top, left bottom, from(#222), to(#444));
+			-webkit-appearance: none;
+			/*box-shadow*/
+			-webkit-box-shadow: 1px 1px 1px #333;
+			-moz-box-shadow: 1px 1px 1px #333;
+			box-shadow: 1px 1px 1px #333;
+		}
+
+		input:focus,
+		textarea:focus,
+		select:focus { outline-color: #c00 }
+		textarea {
+			height: 55px;
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+			background: -moz-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+			background: -o-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+			background: -ms-gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+			background: gradient(linear, left top, left bottom, color-stop(0, #222), color-stop(0.05, #333));
+		} 
+	</style>
+</head>
+
+<body>
+	<section class="splash">
+		<div class="container">
+
+			<div class="content">
+				<img class="logo" src="logo.png">
+<!-- 				<h1>
+		          Founders exposes students to <br>
+		          entrepreneurship and fosters a growing <br>
+		          Illinois entrepreneurial community.
+        		</h1> -->
+
 			</div>
-		</section>
 
+		</div>
+	</section>
+
+
+	<section class="portfolio">
+
+		<div class="container">
 			
-		<section class="portfolio">
+			<div class="row middle-xs">
+
+				<div id="portfolio-meta">
+
+					<h1>About Founders</h1>
+					<p>Founders is the new student entrepreneurship organization at the <a href="http://illinois.edu">University of Illinois</a>. In past years, entrepreneurial efforts on campus have been disconnected and scattered. Founders unifies the lost organizations across campus. We have strong ties with the <a href="http://tec.illinois.edu/">Technology Entrepreneur Center</a> to ensure a cohesive entrepreneurial experience.</p>
+					<p>We want our members to succeed. In order for that to happen, we must have a strong culture and environment that educates, inspires, and motivates the right people forward. We are interdisciplinary, open minded, and innovative.</p>
+					<p>Everything we do is for a purpose and everything we do affects our lives and the lives of others. We will build recognition for the Illinois entrepreneurship community. We will build the foundation for innovation.</p>
+
+				</div>
+
+				<div class="col-md-7 col-md-offset-1 companies">
+					<div class="row" id="companies">
+						<!-- This will be populated by JS -->
+					</div><!-- row -->
+				</div><!-- companies -->
+
+			</div><!-- row -->
 			
-			<div class="container">
-			
-				<div class="row middle-xs">
-			
-					<div id="portfolio-meta">
-						
-						<h1>About Founders</h1>
-            <p>Founders is the new student entrepreneurship organization at the <a href="http://illinois.edu">University of Illinois</a>. In past years, entrepreneurial efforts on campus have been disconnected and scattered. Founders unifies the lost organizations across campus. We have strong ties with the <a href="http://tec.illinois.edu/">Technology Entrepreneur Center</a> to ensure a cohesive entrepreneurial experience.</p>
-            <p>We want our members to succeed. In order for that to happen, we must have a strong culture and environment that educates, inspires, and motivates the right people forward. We are interdisciplinary, open minded, and innovative.</p>
-            <p>Everything we do is for a purpose and everything we do affects our lives and the lives of others. We will build recognition for the Illinois entrepreneurship community. We will build the foundation for innovation.</p>
-										
-					</div>
-		
-					<div class="col-md-7 col-md-offset-1 companies">
-						<div class="row" id="companies">
-							<!-- This will be populated by JS -->
-						</div><!-- row -->
-					</div><!-- companies -->
-					
-				</div><!-- row -->
-			
-				
-			</div><!-- container -->
-			
-		</section><!-- section -->
+
+		</div><!-- container -->
+
+	</section><!-- section -->
 
 <!--
     <section class="resources">
@@ -163,24 +170,24 @@
 				
 			</div>
 		</section>
-		-->
-		
-		<section class="team">
-			<div class="container">
-				
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Team</h1>
-					</div>
-				</div><!-- row -->
-				
-				<div class="row center-xs between-xs">
-					
-					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
-						<img src="img/people/subarna.jpg">
-						<div class="details">
-							<h3>Subarna Bhattacharjee</h3>
-							<h4>President</h4>
+	-->
+
+	<section class="team">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Team</h1>
+				</div>
+			</div><!-- row -->
+
+			<div class="row center-xs between-xs">
+
+				<div class="col-md-2 col-sm-3 col-xs-6 team-member">
+					<img src="img/people/subarna.jpg">
+					<div class="details">
+						<h3>Subarna Bhattacharjee</h3>
+						<h4>President</h4>
 <!-- 							<ul class="social">
 								<li>
 									<a href="https://twitter.com/" target="_blank">
@@ -258,7 +265,7 @@
 					</div>
 					
 				</div>
-					
+
 				<div class="row center-xs between-xs">
 					
 					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
@@ -386,7 +393,7 @@
 					</div>
 					
 					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
-						<img src="images/jamie.jpg">
+						<img src="">
 						<div class="details">
 							<h3>Dan Legut</h3>
 							<h4>Tech Lead</h4>
@@ -450,11 +457,11 @@
 					</div>
 					
 					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
-						<img src="images/nicolassharp.jpg">
+						<img src="">
 						<div class="details">
 							<h3>TBA</h3>
 							<h4>Advisor</h4>
-							<ul class="social">
+							<!-- <ul class="social">
 								<li>
 									<a href="https://twitter.com/nicolasosharp" target="_blank">
 										<img src="img/social/twitter.png" />
@@ -465,16 +472,16 @@
 										<img src="img/social/linkedin.png" />
 									</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 					
 					<div class="col-md-2 col-sm-3 col-xs-6 team-member">
-						<img src="images/jamie.jpg">
+						<img src="">
 						<div class="details">
 							<h3>TBA</h3>
 							<h4>Advisor</h4>
-							<ul class="social">
+							<!-- <ul class="social">
 								<li>
 									<a href="https://twitter.com/JamieWhitcroft" target="_blank">
 										<img src="img/social/twitter.png" />
@@ -485,21 +492,16 @@
 										<img src="img/social/linkedin.png" />
 									</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 					
 				</div><!-- row -->
 				
-				
-				
 			</div>
 		</section>
 		
-				
-		
 		<section class="contact-us">
-			<!-- <div id="map"></div> -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -509,37 +511,22 @@
 				<div class="row">
 					<div class="col-md-5">
 						<p>Want to get updates from us? Sign up for the mailing list!</p>
-  <input type="text" placeholder="Text input">
-
+						<input type="text" placeholder="email@email.com">
 					</div>
 					<div class="col-md-5 col-md-offset-2">
 						<h4>Office</h4>
-            <p><a href="https://www.google.com/maps/place/Engineering+Hall,+1308+W+Green+St,+Urbana,+IL+61801/@40.1108895,-88.2291568,17z/data=!3m1!4b1!4m5!3m4!1s0x880cd73ffb8e733b:0x550a408e89cd806!8m2!3d40.1108408!4d-88.226973" target="_blank">Engineering Hall<br>
-              1308 W Green Street
-              <br>
+						<p><a href="https://www.google.com/maps/place/Engineering+Hall,+1308+W+Green+St,+Urbana,+IL+61801/@40.1108895,-88.2291568,17z/data=!3m1!4b1!4m5!3m4!1s0x880cd73ffb8e733b:0x550a408e89cd806!8m2!3d40.1108408!4d-88.226973" target="_blank">Engineering Hall<br>
+							1308 W Green Street
+							<br>
 							Urbana, IL 61801<br></a>
 						</p>
 						<h4>Email</h4>
-				    <p><a href="mailto:team@founders.illinois.edu">contact@founders.illinois.edu</a></p>
+						<p><a href="mailto:team@founders.illinois.edu">contact@founders.illinois.edu</a></p>
 					</div>
 				</div>
 			</div>
 		</section>
-		
-		<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.js'></script>
-	    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.3/mapbox-gl.css' rel='stylesheet' />
-		
-<!-- 		<script>
-		mapboxgl.accessToken = 'pk.eyJ1IjoibmlyYWpwYW50NyIsImEiOiJxYUp4Vk1zIn0.rBZKb-rUZE8id4Cx8jakcg';
-		var map = new mapboxgl.Map({
-		    container: 'map', // container id
-        center: [-88.226802, 40.110811],
-		    style: 'mapbox://styles/mapbox/light-v9', //hosted style id
-        //center: [40.110595, -88.221692], // starting position
-		    zoom: 16 // starting zoom
-		});
-		</script> -->
-			
+
 	</body>
 	
-</html>
+	</html>
